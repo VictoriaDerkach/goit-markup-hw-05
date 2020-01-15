@@ -63,11 +63,11 @@ img {
   text-decoration: none;
 }
 .tel::before {
-  content: url(/images/telephone.png);
+  content: url(../images/telephone.png);
   margin-right: 5px;
 }
 .mail::before {
-  content: url(/images/envelop.png);
+  content: url(../images/envelop.png);
   margin-right: 10px;
 }
 .login-menu {
@@ -133,7 +133,7 @@ img {
       rgba(0, 0, 0, 0.55) 0%,
       rgba(0, 0, 0, 0.55) 100%
     ),
-    url(/images/banner.png);
+    url(../images/banner.png);
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,16 +214,16 @@ img {
   padding-top: 100px;
 }
 .settings::before {
-  content: url(/images/settings.png);
+  content: url(../images/settings.png);
 }
 .moneyback::before {
-  content: url(/images/moneyback.png);
+  content: url(../images/moneyback.png);
 }
 .worldwide::before {
-  content: url(/images/worldwide.png);
+  content: url(../images/worldwide.png);
 }
 .worldwide2::before {
-  content: url(/images/worldwide2.png);
+  content: url(../images/worldwide2.png);
 }
 .about-paragraph {
   font-family: var(--main-font-stack);
@@ -374,7 +374,7 @@ img {
   flex-wrap: wrap;
 }
 .news-paragraph::before {
-  content: url(/images/line.png);
+  content: url(../images/line.png);
   padding-bottom: 20px;
 }
 .btn {
@@ -393,7 +393,7 @@ img {
 }
 .footer {
   height: 462px;
-  background-image: url(/images/bg-footer.png);
+  background-image: url(../images/bg-footer.png);
 }
 .footer-paragraph {
   color: #fefefe;
@@ -433,6 +433,6 @@ img {
   cursor: pointer;
 }
 .footer-button:before {
-  content: url(/images/arrows.png);
+  content: url(../images/arrows.png);
   font-size: 16px;
 }
